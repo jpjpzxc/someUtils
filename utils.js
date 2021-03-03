@@ -1,10 +1,13 @@
-public class Power {
+ 
+function product ( num1, num2 ) {
+    return num1 * num2
+  }
+  function divide ( num1, num2 ) {
+    return num1 / num2
 
-    public static void main(String[] args) {
-
-        int base = 3, exponent = -4;
-        double result = Math.pow(base, exponent);
-
-        System.out.println("Answer = " + result);
-    }
-}
+  } function power ( num1, num2 ) {
+    return num1 ** num2
+  }
+  function subtract ( num1, num2 ) {
+    return num1 - num2
+  }
