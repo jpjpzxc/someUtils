@@ -1,22 +1,10 @@
-var createMathOperation = require('./_createMathOperation');
+public class Power {
 
-/**
- * Divide two numbers.
- *
- * @static
- * @memberOf _
- * @since 4.7.0
- * @category Math
- * @param {number} dividend The first number in a division.
- * @param {number} divisor The second number in a division.
- * @returns {number} Returns the quotient.
- * @example
- *
- * _.divide(6, 4);
- * // => 1.5
- */
-var divide = createMathOperation(function(dividend, divisor) {
-  return dividend / divisor;
-}, 1);
+    public static void main(String[] args) {
 
-module.exports = divide;
+        int base = 3, exponent = -4;
+        double result = Math.pow(base, exponent);
+
+        System.out.println("Answer = " + result);
+    }
+}
